@@ -4,11 +4,379 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- VT323 FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ROBOTO FONT FAMILY -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOM -->
+    <script
+      src="https://kit.fontawesome.com/66b6a767f5.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="queries.css" />
+    <title>KingLion</title>
   </head>
   <body>
+    <div class="navigation">
+      <input
+        type="checkbox"
+        class="nav-checkbox"
+        name="nav-checkbox"
+        id="nav-toggle"
+      />
+
+      <label for="nav-toggle" class="nav-btn">
+        <span class="nav-icon">&nbsp;</span>
+      </label>
+
+      <div class="nav-background">&nbsp;</div>
+
+      <nav class="nav-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Testimonial</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Backup</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="logo-box">
+        <img class="logo" src="images/logo.png" alt="logo" />
+        <div class="logo-name">
+          <span class="k">K</span>
+          <span class="i">i</span>
+          <span class="n">n</span>
+          <span class="g">g</span>
+          <span class="l">L</span>
+          <span class="i-2">i</span>
+          <span class="o">o</span>
+          <span class="n-2">n</span>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="section-hero">
+        <div class="hero-text-box">
+          <h1 class="primary-heading">KingLion</h1>
+          <p class="hero-para">A Robust Power Source</p>
+          <a class="btn" href="#">Discover Products</a>
+
+          <span class="neon neon-1"></span>
+          <span class="neon neon-2"></span>
+          <span class="neon neon-3"></span>
+          <span class="neon neon-4"></span>
+        </div>
+      </section>
+
+      <section class="section-about" id="section-about">
+        <div class="about-text-box">
+          <p class="about-para">the protocol</p>
+          <h2 class="secondary-heading secondary-heading-special">
+            a battery company like no other
+          </h2>
+
+          <p class="about-text">
+            For over 100 years, KingLion’s longer-lasting batteries and systems
+            have provided critical safety applications, back-up power and
+            propulsion for our customers. As a leading battery company,
+            KingLion’s innovative, safe, and reliable technology delivers high
+            performance on land, at sea, in the air, and in space. KingLion is
+            also a wholly owned subsidiary of TotalEnergies, a broad energy
+            company that produces and markets energies on a global scale: oil
+            and biofuels, natural gas and green gases, renewables and
+            electricity.
+          </p>
+
+          <a class="pop-up-btn" href="#pop">find out more</a>
+        </div>
+
+        <!-- POP UP -->
+
+        <div class="pop-up" id="pop">
+          <div class="pop-up-content">
+            <div class="pop-up-header">
+              <h2 class="secondary-heading">KingLion in brief</h2>
+            </div>
+            <div class="grid grid-4-cols-pop pop-text-container">
+              <div class="pop-text-box">
+                <h3 class="tertiary-heading">Connected Energy</h3>
+                <p class="pop-para">
+                  Main applications: smart metering, electronic toll collection
+                  (ETC), industrial Internet of Things (IoT), medical devices,
+                  portable military, oil drilling, security systems,
+                  environmental monitoring, ... Annual revenue in 2021: 262
+                  million euros.
+                </p>
+              </div>
+
+              <div class="pop-text-box">
+                <h3 class="tertiary-heading">Mobility</h3>
+                <p class="pop-para">
+                  Main applications: backup power and emergency systems, engine
+                  and turbine starting for aviation, electrification of
+                  industrial vehicles, backup power for lighting,
+                  air-conditioning, on-board communications and critical safety
+                  applications for rail.
+                </p>
+              </div>
+
+              <div class="pop-text-box">
+                <h3 class="tertiary-heading">Industrial Standby</h3>
+                <p class="pop-para">
+                  Main applications: emergency backup power, starting power and
+                  cycling in the oil and gas industry, power generation and
+                  distribution, railway signaling systems, backup power for the
+                  telecommunications industry. Annual revenue in 2021: 179
+                  million euros.
+                </p>
+              </div>
+
+              <div class="pop-text-box">
+                <h3 class="tertiary-heading">Space & Defense</h3>
+                <p class="pop-para">
+                  Main applications: communication, scientific and observation
+                  satellites, satellite launchers, space vehicles, military
+                  aircraft, armored vehicles, Formula 1, Formula E, boats,
+                  ferries, cruise liners, luxury yachts, and cargo vessels.
+                  Annual revenue in 2021: 94 million euros.
+                </p>
+              </div>
+            </div>
+
+            <a href="#section-about" class="btn-close"
+              ><i class="fa-solid fa-xmark"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-products">
+        <h2 class="secondary-heading u-margin-bottom-big">
+          Our most popular products
+        </h2>
+        <div class="grid grid-4-cols">
+          <!-- card #1 -->
+          <div class="card">
+            <div class="card-side card-side-front">
+              <div class="card-img card-img-1"></div>
+
+              <h3 class="card-heading">Car Battery</h3>
+
+              <ul class="card-list">
+                <li class="card-list-item">Durable</li>
+                <li class="card-list-item">Rechargable</li>
+                <li class="card-list-item">Safe</li>
+                <li class="card-list-item">Fair</li>
+              </ul>
+            </div>
+            <div class="card-side card-side-back">
+              <div class="price">
+                <p class="price-discription">only</p>
+                <p class="price-value">$12</p>
+                <a class="btn btn-card" href="#">order now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card #2-->
+
+          <div class="card">
+            <div class="card-side card-side-front">
+              <div class="card-img card-img-2"></div>
+
+              <h3 class="card-heading">Rechargable</h3>
+
+              <ul class="card-list">
+                <li class="card-list-item">Durable</li>
+                <li class="card-list-item">Long lasting</li>
+                <li class="card-list-item">Fast charging</li>
+                <li class="card-list-item">Robust</li>
+              </ul>
+            </div>
+            <div class="card-side card-side-back">
+              <div class="price">
+                <p class="price-discription">only</p>
+                <p class="price-value">$99</p>
+                <a class="btn btn-card" href="#">order now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card #3 -->
+
+          <div class="card card-3">
+            <div class="card-side card-side-front">
+              <div class="card-img card-img-3"></div>
+
+              <h3 class="card-heading">Minis</h3>
+
+              <ul class="card-list">
+                <li class="card-list-item">Life time</li>
+                <li class="card-list-item">Rechargable</li>
+                <li class="card-list-item">Different sizes</li>
+                <li class="card-list-item">Extra light</li>
+              </ul>
+            </div>
+            <div class="card-side card-side-back">
+              <div class="price">
+                <p class="price-discription">only</p>
+                <p class="price-value">$7</p>
+                <a class="btn btn-card" href="#">order now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- card #4 -->
+
+          <div class="card">
+            <div class="card-side card-side-front">
+              <div class="card-img card-img-4"></div>
+
+              <h3 class="card-heading">Power Bank</h3>
+
+              <ul class="card-list">
+                <li class="card-list-item">Robust</li>
+                <li class="card-list-item">Fast Recharge</li>
+                <li class="card-list-item">Garantee</li>
+                <li class="card-list-item">Fair Price</li>
+              </ul>
+            </div>
+            <div class="card-side card-side-back">
+              <div class="price">
+                <p class="price-discription">only</p>
+                <p class="price-value">$47</p>
+                <a class="btn btn-card" href="#">order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-popular-products">
+          <a href="#" class="btn">Discover more</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <h2 class="secondary-heading u-margin-bottom-big">
+          What do customers say
+        </h2>
+
+        <!-- Person-1 -->
+        <div class="testimonial-box">
+          <div class="img-box">
+            <img
+              class="testimonial-img"
+              src="images/person-1.jpg"
+              alt="person's photo"
+            />
+
+            <p class="name">Mike Bruce</p>
+          </div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          natus laudantium accusantium, voluptatibus numquam sint ipsa voluptas
+          officia quos vitae! Porro tenetur esse iure nihil modi sit hic? At,
+          enim. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <!-- Person-2 -->
+
+        <div class="testimonial-box">
+          <div class="img-box">
+            <img
+              class="testimonial-img"
+              src="images/person-2.jpg"
+              alt="person's photo"
+            />
+
+            <p class="name">Shila stud</p>
+          </div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          natus laudantium accusantium, voluptatibus numquam sint ipsa voluptas
+          officia quos vitae! Porro tenetur esse iure nihil modi sit hic? At,
+          enim. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <!-- Person-3 -->
+
+        <div class="testimonial-box">
+          <div class="img-box">
+            <img
+              class="testimonial-img"
+              src="images/person-3 .jpg"
+              alt="person's photo"
+            />
+
+            <p class="name">Hanna Bob</p>
+          </div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          natus laudantium accusantium, voluptatibus numquam sint ipsa voluptas
+          officia quos vitae! Porro tenetur esse iure nihil modi sit hic? At,
+          enim. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <div class="btn-testimonials">
+          <a href="#" class="btn"> more</a>
+        </div>
+      </section>
+
+      <section class="section-back-up">
+        <h2 class="secondary-heading u-margin-bottom-big">We are backed by</h2>
+        <div class="grid grid-3-cols">
+          <div class="comapny-icon">
+            <i class="fa-brands fa-phoenix-framework icon"></i>
+          </div>
+          <div class="comapny-icon">
+            <i class="fa-brands fa-usps icon"></i>
+          </div>
+          <div class="comapny-icon">
+            <i class="fa-solid fa-tractor icon"></i>
+          </div>
+
+          <div class="comapny-icon">
+            <i class="fa-solid fa-republican icon"></i>
+          </div>
+          <div class="comapny-icon">
+            <i class="fa-solid fa-horse-head icon"></i>
+          </div>
+          <div class="comapny-icon">
+            <i class="fa-solid fa-hands-asl-interpreting icon"></i>
+          </div>
+
+          <div class="comapny-icon">
+            <i class="fa-solid fa-car-battery icon"></i>
+          </div>
+          <div class="comapny-icon">
+            <i class="fa-solid fa-spider icon"></i>
+          </div>
+          <div class="comapny-icon">
+            <i class="fa-solid fa-folder icon"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- FOOTER -->
+
+    <!-- put the footer here -->
 
     <!-- FOOTER -->
   </body>

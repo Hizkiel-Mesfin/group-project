@@ -1,0 +1,295 @@
+/************************/
+/* At max width 1800px */
+/************************/
+
+@media (max-width: 112.5em) {
+  .section-products {
+    width: 80%;
+  }
+
+  .price-discription {
+    font-size: 6.5rem;
+
+    margin-bottom: 12rem;
+  }
+
+  .price-value {
+    font-size: 12rem;
+    margin-bottom: 18rem;
+  }
+
+  .btn-card:link,
+  .btn:visited {
+    font-size: 2.6rem;
+    padding: 1.5rem 4rem;
+  }
+
+  /* pop up */
+
+  .grid-4-cols-pop {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pop-up-content {
+    width: 80%;
+  }
+
+  .pop-up-header {
+    height: 30rem;
+
+    margin-bottom: 2rem;
+  }
+
+  .pop-text-container {
+    padding: 4rem;
+  }
+
+  .tertiary-heading {
+    font-size: 3rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .pop-para {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+}
+
+/************************/
+/* At max width 1600px */
+/************************/
+
+@media (max-width: 100em) {
+  .logo {
+    width: 8rem;
+    height: 8rem;
+  }
+  .nav-btn {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .primary-heading {
+    font-size: 11rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 1.2rem 4rem;
+  }
+
+  .section-about {
+    width: 60%;
+  }
+}
+
+/************************/
+/* At max width 1488px */
+/************************/
+
+@media (max-width: 93em) {
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 4.2rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.8rem;
+
+    -webkit-text-fill-color: #fff;
+  }
+
+  .about-text {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-products {
+    width: 80%;
+  }
+
+  .section-testimonials {
+    width: 50%;
+  }
+
+  .testimonial-box {
+    font-size: 2.6rem;
+  }
+
+  .img-box {
+    width: 15rem;
+    height: 15rem;
+    transform: translate(-15rem, -14rem);
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+}
+
+/************************/
+/* At max width 1200px */
+/************************/
+
+@media (max-width: 75em) {
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 4rem;
+  }
+
+  .nav-btn {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .nav-icon,
+  .nav-icon::before,
+  .nav-icon::after {
+    width: 3rem;
+    height: 3px;
+  }
+
+  .nav-icon::before {
+    top: 0.8rem;
+    transition: all 0.4s;
+  }
+
+  .nav-icon::after {
+    top: -0.8rem;
+    transition: all 0.4s;
+  }
+
+  .nav-btn:hover .nav-icon::before {
+    top: 1.2rem;
+  }
+
+  .nav-btn:hover .nav-icon::after {
+    top: -1.2rem;
+  }
+
+  .nav-background {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.2rem;
+
+    -webkit-text-fill-color: #fff;
+  }
+
+  .section-products {
+    width: 90%;
+  }
+
+  .section-testimonials {
+    width: 70%;
+  }
+
+  .testimonial-box {
+    font-size: 2.4rem;
+  }
+
+  .img-box {
+    width: 12rem;
+    height: 12rem;
+    transform: translate(-12rem, -10rem);
+  }
+
+  .name {
+    font-size: 2.4rem;
+  }
+
+  .section-back-up {
+    width: 60%;
+  }
+
+  .icon {
+    font-size: 8rem;
+  }
+}
+
+/************************/
+/* At max width 928px */
+/************************/
+
+@media (max-width: 58em) {
+  .secondary-heading {
+    font-size: 3.6rem;
+    -webkit-text-fill-color: #fff;
+  }
+
+  .section-products {
+    width: 60%;
+  }
+
+  .section-about {
+    width: 80%;
+  }
+
+  .secondary-heading {
+    font-size: 3.8rem;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+  }
+
+  .grid-4-cols-pop {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card:last-child {
+    margin-bottom: 15rem;
+  }
+
+  .section-testimonials {
+    width: 70%;
+  }
+
+  .testimonial-box {
+    font-size: 2rem;
+  }
+
+  .img-box {
+    width: 10rem;
+    height: 10rem;
+    transform: translate(-10rem, -10rem);
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .pop-up-header {
+    height: 20rem;
+  }
+}
+
+/************************/
+/* At max width 456px */
+/************************/
+
+@media (max-width: 28.5em) {
+  .primary-heading {
+    font-size: 8rem;
+  }
+
+  .section-about {
+    width: 80%;
+  }
+
+  .section-products {
+    width: 80%;
+  }
+}
