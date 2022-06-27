@@ -300,6 +300,10 @@
   .pop-up-header {
     height: 20rem;
   }
+
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /************************/
@@ -437,6 +441,10 @@
 
   .card-list-item:not(:last-child) {
     margin-bottom: 5rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
   }
 }
 
