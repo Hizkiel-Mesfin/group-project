@@ -810,4 +810,112 @@ body {
 
 /***********/
 /* FOOTER*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eef8ff;
+}
+
+footer{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    background: linear-gradient(to right , #435dee,#e974de);
+   padding: 100px 0 30px;  
+   border-top-right-radius: 125px;
+   font-size: 13px;
+   line-height: 20px;
+}
+
+.row
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+p,h4,.fa{
+    color: white;
+}
+h4{
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 40px;
+    
+}
+.email{
+    width: fit-content;
+    border-bottom: 1px solid blue;
+    margin: 20px 0;
+
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+
+ .fa{
+    font-size: 18px;
+    margin-right: 50px;
+}
+input{
+    width: 100%;
+    background: transparent;
+    color: wihte;
+    border: 0;
+    
+}
+.fas{
+    font-size: 16px;
+    color: white;
+    
+}
+button{
+    background: transparent;
+    border: 0;
+}
+
+.icons-bar .fab{
+    /*color: white;*/
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: white;
+    margin-left: 20px;
+  
+    
+}
+
+
+
 /***********/
