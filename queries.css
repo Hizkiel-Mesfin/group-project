@@ -281,11 +281,16 @@
 /************************/
 
 @media (max-width: 28.5em) {
+  .hero-text-box {
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
   .primary-heading {
     font-size: 8rem;
   }
 
   .section-about {
+    margin-left: 10rem;
     width: 80%;
   }
 
