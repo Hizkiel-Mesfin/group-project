@@ -219,13 +219,31 @@
 /************************/
 
 @media (max-width: 58em) {
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3.8rem;
+    padding: 1.2rem 3.5rem;
+  }
+
   .secondary-heading {
     font-size: 3.6rem;
     -webkit-text-fill-color: #fff;
   }
 
   .section-products {
-    width: 60%;
+    width: 50%;
+  }
+
+  .card-heading {
+    font-size: 5rem;
+  }
+
+  .card-list {
+    font-size: 4rem;
+  }
+
+  .card-list-item:not(:last-child) {
+    margin-bottom: 5rem;
   }
 
   .section-about {
@@ -277,19 +295,146 @@
 }
 
 /************************/
+/* At max width 720px */
+/************************/
+
+@media (max-width: 45em) {
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3.4rem;
+    padding: 1.2rem 3.5rem;
+  }
+
+  .primary-heading {
+    font-size: 7.5rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2.4rem;
+    padding: 1.4rem 3.4rem;
+  }
+
+  .section-testimonials {
+    width: 60%;
+  }
+
+  .section-products {
+    width: 70%;
+  }
+
+  .testimonial-box {
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+
+  .img-box {
+    width: 6rem;
+    height: 6rem;
+    transform: translate(-6rem, -6rem);
+  }
+
+  .name {
+    font-size: 1.4rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/************************/
 /* At max width 456px */
 /************************/
 
 @media (max-width: 28.5em) {
+  .nav-item:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2.8rem;
+    padding: 1rem 3rem;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .logo-name {
+    font-size: 2rem;
+    letter-spacing: -1.6px;
+  }
+
+  .logo-box {
+    gap: 1.5rem;
+  }
+
+  .nav-btn {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .nav-background {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .hero-text-box {
+    left: 60%;
+    transform: translate(-55%, -50%);
+  }
   .primary-heading {
-    font-size: 8rem;
+    font-size: 7rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+    padding: 1rem 3rem;
+  }
+
+  .secondary-heading {
+    font-size: 3rem;
   }
 
   .section-about {
+    margin-left: 5rem;
     width: 80%;
+  }
+
+  .pop-up-btn:link,
+  .pop-up-btn:visited {
+    font-size: 2rem;
+    padding: 1rem 3rem;
+  }
+
+  .about-text {
+    font-size: 1.6rem;
   }
 
   .section-products {
     width: 80%;
   }
+
+  .card-heading {
+    font-size: 4rem;
+  }
+
+  .card-list {
+    font-size: 3rem;
+  }
+
+  .card-list-item:not(:last-child) {
+    margin-bottom: 5rem;
+  }
 }
+
+/************************/
+/* At max width 384px */
+/************************/
+
+@media (max-width: 24em) {
+} ;
