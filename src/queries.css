@@ -82,6 +82,14 @@
   .section-about {
     width: 60%;
   }
+
+  .section-products {
+    width: 70%;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /************************/
@@ -231,7 +239,7 @@
   }
 
   .section-products {
-    width: 50%;
+    width: 60%;
   }
 
   .card-heading {
@@ -320,7 +328,7 @@
   }
 
   .section-products {
-    width: 70%;
+    width: 80%;
   }
 
   .testimonial-box {
