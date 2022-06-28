@@ -912,7 +912,7 @@ button {
 
 /*last section*/
 
-body{
+/*body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -921,11 +921,20 @@ body{
   
 
 }
+*/
 .container{
-    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+   background: linear-gradient(black,black 50%, white 50%,#fff 100%);
+  
+
+   /* width: 1100px;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between;*/
    flex-wrap: wrap;
+   
 }
 .box{
     position: relative;
